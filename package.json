@@ -1,0 +1,30 @@
+{
+  "name": "oop",
+  "version": "1.0.0",
+  "description": "A program to demonstrate the concepts of Object Oriented Programming, using University system as example.",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "mocha ./tests/test.js"
+  },
+  "keywords": [
+    "OOP",
+    "encasulation",
+    "inheritance",
+    "polymorphism",
+    "abstraction"
+  ],
+  "author": "Victor",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^4.9.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.7.0"
+  }
+}
